@@ -1,0 +1,24 @@
+{
+  "name": "rx-combine-latest-start-undefined",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntilwalli/rx-combine-latest-start-undefined.git"
+  },
+  "version": "1.0.0",
+  "description": "Another convenient flavor of Rx.Observable.combineLatest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rx",
+    "rxjs",
+    "observable",
+    "combineLatest"
+  ],
+  "peerDependencies": {
+    "rx": "*"
+  },
+  "author": "Nikhil Tilwalli",
+  "license": "MIT"
+}
