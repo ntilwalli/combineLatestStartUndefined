@@ -30,11 +30,11 @@ const state$ = combineLatestStartUndefined(a$, b$, c$).take(6);
 // or const state$ = combineLatestStartUndefined({[a$, b$, c$]).take(6);
 
 state$.subscribe(x => console.dir(x));
-// Time 0:   {"0": undefined, "1": undefined, "2": undefined}
-// Time 50:  {"0": 0, "1": undefined, "2": undefined}
-// Time 100: {"0": 1, "1": undefined, "2": undefined}
-// Time 125: {"0": 1, "1": 'Boston', "2": undefined}
-// Time 150: {"0": 2, "1": 'Boston', "2": undefined}
-// Time 200: {"0": 2, "1": 'Boston', "2": 'Colorado'}
+// Time 0:   [undefined, undefined, undefined]
+// Time 50:  [0, undefined, undefined]
+// Time 100: [1, undefined, undefined]
+// Time 125: [1, 'Boston', undefined]
+// Time 150: [2, 'Boston', undefined]
+// Time 200: [2, 'Boston', 'Colorado']
 
 ```
