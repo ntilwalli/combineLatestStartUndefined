@@ -1,4 +1,4 @@
-# editor-specific
+# Editor-specific
 .idea
 *.sublime-project
 *.sublime-workspace
