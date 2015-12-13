@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/ntilwalli/combineLatestStartUndefined.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Another convenient flavor of Rx.Observable.combineLatest",
   "main": "index.js",
   "scripts": {
