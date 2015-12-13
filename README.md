@@ -7,7 +7,7 @@
 This function has the exact same usage as [Rx.Observable.combineLatest](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/combinelatest.md),
 including the ability to use a `resultSelector` function
 
-The example below is a variation the one on [staltz/combineLatestObj](https://github.com/staltz/combineLatestObj).
+The example below is a variation on the example at [staltz/combineLatestObj](https://github.com/staltz/combineLatestObj).
 
 Given these observables:
 ```js
